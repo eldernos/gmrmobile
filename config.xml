@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<widget xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:vs="http://schemas.microsoft.com/appx/2014/htmlapps" id="com.gmrmarketing.gmrmobile" version="1.0.0.0" xmlns="http://www.w3.org/ns/widgets">
+  <name>GMRMobile</name>
+  <description>GMR Internal Mobile Application</description>
+  <author href="http://cordova.io" email="dev@cordova.apache.org">GMR Marketing</author>
+  <content src="index.html" />
+  <access origin="*" />
+  <access origin="go.urbanairship.com" />
+  <preference name="SplashScreen" value="screen" />
+  <preference name="windows-target-version" value="8.1" />
+  <preference name="windows-phone-target-version" value="8.1" />
+  <preference name="SplashScreen" value="screen" />
+  <preference name="windows-target-version" value="8.0" />
+  <preference name="windows-phone-target-version" value="8.1" />
+  <preference name="com.urbanairship.production_app_key" value="Your production app key" />
+  <preference name="com.urbanairship.production_app_secret" value="Your production app secret" />
+  <preference name="com.urbanairship.development_app_key" value="f1evFbdxQOGEH1nUHupfXA" />
+  <preference name="com.urbanairship.development_app_secret" value="RNYQUjuEQImEkQj5tzpqgA" />
+  <preference name="com.urbanairship.in_production" value="0" />
+  <preference name="com.urbanairship.gcm_sender" value="Android only: Your GCM sender id" />
+  <preference name="target-device" value="handset" />
+  <preference name="BackupWebStorage" value="none" />
+  <preference name="Fullscreen" value="true" />
+  <vs:plugin name="org.apache.cordova.console" version="0.2.11" />
+  <vs:plugin name="com.urbanairship.phonegap.PushNotification" version="2.7.3" />
+  <vs:plugin name="org.apache.cordova.console" version="0.2.11" />
+  <vs:plugin name="org.apache.cordova.file" version="1.3.1" />
+  <vs:plugin name="org.apache.cordova.file-transfer" version="0.4.6" />
+  <vs:plugin name="org.apache.cordova.geolocation" version="0.3.10" />
+  <vs:plugin name="org.apache.cordova.globalization" version="0.3.1" />
+  <vs:plugin name="com.msopentech.websql" version="0.0.5" />
+  <vs:plugin name="org.apache.cordova.dialogs" version="0.2.10" />
+  <vs:plugin name="org.apache.cordova.device" version="0.2.12" />
+  <vs:plugin name="org.apache.cordova.inappbrowser" version="0.5.2" />
+  <vs:platformSpecificValues />
+</widget>
